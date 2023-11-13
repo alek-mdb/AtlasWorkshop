@@ -82,7 +82,7 @@ Navigate to your command lind or you can use the command line in MongoDB Compass
 
 Calculate how many extra guests you can have for each property and add that as a field using $set. Calculate how much it would cost with these extra guests. $project the basic price and the price if fully occupied with $accommodates people. 
 
-```
+```json
 [
   {
     $set: {
