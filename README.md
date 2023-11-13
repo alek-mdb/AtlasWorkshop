@@ -178,13 +178,8 @@ HOMEWORK: We encourage you to checkout this [book](https://www.practical-mongodb
 - Click `Refine Your Index`
 - Add a new field mapping for the `title` field with a `Data Type` of `Autocomplete`
 
-### 4. (OPTIONAL) Connect MongoDB Compass
-You can get the URL from the Atlas UI - click the `Connect` button next to your cluster.
-
-Paste the URL into the Compass connection box, replacing the username and password.
-
-### 5. Create aggregation pipeline to search for movies
-From Compass (or the Atlas UI), navigate to the `Aggregation` pane for `sample_mflix.movies`.
+### 4. Create aggregation pipeline to search for movies
+From Cthe Atlas UI, navigate to the `Aggregation` pane for `sample_mflix.movies`.
 
 Create these stages in sequence:
 
