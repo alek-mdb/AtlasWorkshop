@@ -2,17 +2,11 @@
 [Session slides](JPMC-Houston-Workshop-102523.pdf)
 
 ## Prerequisites
-Workshop attendees MUST bring their own personal laptop in order to actively participate in the workshop.
+Workshop attendees MUST bring their own PERSONAL LAPTOP in order to actively participate in the workshop. Please make sure the laptop is FULLY CHARGED.
 
-Please create a user account on MongoDB Atlas. 
+Please create a free user account on MongoDB Atlas. Accounts MUST be created using your personal email address, NOT your Morgan Stanley email.
 
-Accounts MUST be created using your personal email address, NOT your company email.
-
-Download and Install MongoDB Compass, this is verified MongoDB software. Please only use this official link.﻿
-
-Attendees must connect to the JPMC-GUEST-NETWORK on their personal laptop for the workshop.
-
-Ability to install binaries on your personal laptop - NodeJS, Python pip3 etc.
+Attendees must connect to the Personal-wifi on their personal laptop for the workshop.
 
 ## Steps
 ### 1. Add sample data to your MongoDB Atlas cluster
