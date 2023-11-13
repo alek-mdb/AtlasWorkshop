@@ -132,12 +132,26 @@ db.listingsAndReviews.aggregate(pipe).pretty()
 What are the top 10 most popular amenities across all listings?
 
 ```
-unwindstage = { $unwind:"$amenities"}
-group = { $group: { _id: "$amenities", count: { $sum: 1 } } } 
-sortstage = {$sort:{count:-1}}
-limitstage = { $limit : 10 }
-pipe=[unwindstage,group,sortstage, limitstage]
-db.listingsAndReviews.aggregate( pipe ).pretty()
+[
+  {
+    $unwind: {
+      path: "$amenities",
+    },
+  },
+  {
+    $group: {
+      _id: "$amenities",
+      count: {
+        $sum: 1,
+      },
+    },
+  },
+  {
+    $sort: {
+      count: -1,
+    },
+  },
+]
 ```
 
 HOMEWORK: We encourage you to checkout this [book](https://www.practical-mongodb-aggregations.com/) to learn more about aggregations. This is a free resource available to the general public. We would love to hear your feedback and use cases on how you use Aggregation Framework in the future. 
