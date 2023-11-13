@@ -13,10 +13,6 @@ Attendees must connect to the Personal-wifi on their personal laptop for the wor
 
 If you haven't already sone so, [create an Atlas cluster](https://cloud.mongodb.com/).
 
-Make sure at least 1 user with read-write access has been added.
-
-Make sure that IP Access List allows access (add `Allow ACCESS FROM ANYWHERE`(`0.0.0.0\0`) to be sure).
-
 Add sample data:
 - Click the `...` next to your cluster in the Atlas UI
 - Select `Load Sample Dataset`
