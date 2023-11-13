@@ -120,11 +120,21 @@ Calculate how many extra guests you can have for each property and add that as a
 Calculate how many Airbnb properties there are in each country, ordered by count, list the one with the largest count first.
 
 ```
-groupfield = "$address.country"
-groupstage = { $group: { _id: groupfield, count:{$sum:1}}}
-sortstage = {$sort:{count:-1}}
-pipe = [groupstage,sortstage]
-db.listingsAndReviews.aggregate(pipe).pretty()
+[
+  {
+    $group: {
+      _id: "$address.country",
+      count: {
+        $sum: 1,
+      },
+    },
+  },
+  {
+    $sort: {
+      count: -1,
+    },
+  },
+]
 ```
 
 #### c. Query 3
