@@ -70,9 +70,9 @@ db.listingsAndReviews.find({"address.market":"Hong Kong", "property_type" : "Apa
 
 
 ## Aggregation Framework
-### 1. Compass / CMD
+### 1. Atlas UI
 
-Navigate to your command lind or you can use the command line in MongoDB Compass, we will be using the ```sample_airbnb``` collection. 
+Still in the Data Explorer, click the smaller "Aggregation" tab to view the Aggregation Builder. We will be using the ```sample_airbnb``` collection. 
 
 #### a. Query 1
 
