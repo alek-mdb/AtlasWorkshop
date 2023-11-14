@@ -1,5 +1,5 @@
 # Atlas Workshop
-[Session slides](JPMC-Houston-Workshop-102523.pdf)
+[Session slides](Atlas%20Workshop%20__%20Morgan%20StanleyMTL%20__%2016%20Nov%2023.pdf)
 
 ## Prerequisites
 Workshop attendees MUST bring their own PERSONAL LAPTOP in order to actively participate in the workshop. Please make sure the laptop is FULLY CHARGED.
