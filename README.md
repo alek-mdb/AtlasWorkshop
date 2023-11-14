@@ -22,7 +22,7 @@ It will take a few minutes for the sample data to be added.
 ## MongoDB Queries
 ### 1. Atlas UI
 
-Navigate to Collections tab in Data Explorer by clicking "Browse Collections" in your cluster. We will be using the ```sample_airbnb``` collection. 
+Navigate to Collections tab in Data Explorer by clicking `Browse Collections` in your cluster. We will be using the ```sample_airbnb``` collection. 
 
 #### a. Query 1
 
@@ -72,7 +72,7 @@ db.listingsAndReviews.find({"address.market":"Hong Kong", "property_type" : "Apa
 ## Aggregation Framework
 ### 1. Atlas UI
 
-Still in the Data Explorer, click the smaller "Aggregation" tab to view the Aggregation Builder. We will be using the ```sample_airbnb``` collection. 
+Still in the Data Explorer, click the smaller `Aggregation` tab to view the Aggregation Builder. We will be using the ```sample_airbnb``` collection. 
 
 #### a. Query 1
 
@@ -174,12 +174,12 @@ HOMEWORK: We encourage you to checkout this [book](https://www.practical-mongodb
 
 ### 3. Add autocomplete index
 - Set the name to `autocomplete`
-- Turn off `Dynamic Mapping`
 - Click `Refine Your Index`
+- Turn off `Dynamic Mapping`
 - Add a new field mapping for the `title` field with a `Data Type` of `Autocomplete`
 
 ### 4. Create aggregation pipeline to search for movies
-From Cthe Atlas UI, navigate to the `Aggregation` pane for `sample_mflix.movies`.
+From the Atlas UI, navigate to the `Aggregation` pane for `sample_mflix.movies`.
 
 Create these stages in sequence:
 
