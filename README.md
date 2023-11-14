@@ -20,9 +20,9 @@ Add sample data:
 It will take a few minutes for the sample data to be added.
 
 ## MongoDB Queries
-### 1. Compass
+### 1. Atlas UI
 
-Navigate to the Search bar in your collection, we will be using the ```sample_airbnb``` collection. If you do not have Compass, we can use the Data Explorer UI for the remainder of this session. Alternatively, we can also use the command line if you have ```mongosh``` installed. 
+Navigate to Collections tab in Data Explorer by clicking "Browse Collections" in your cluster. We will be using the ```sample_airbnb``` collection. 
 
 #### a. Query 1
 
