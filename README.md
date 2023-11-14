@@ -36,7 +36,7 @@ To specify equality conditions, use : expressions in the query filter document.
 #### b. Query 2
 
 Find all properties in the database with a range based filter:
-have at least three bedrooms: {"bedrooms": {"gte" : 3}}  and price range from 1,300 to 1,500: "price": {"gte" : 3}}  and price range from 1,300 to 1,500: "price": {"gte": 1300, "$lte": 1500}
+have at least three bedrooms: {"bedrooms": {"$gte" : 3}}  and price range from 1,300 to 1,500: "price": {"$gte" : 3}}  and price range from 1,300 to 1,500: "price": {"$gte": 1300, "$lte": 1500}
 ```json
 { "bedrooms": {"$gte": 3}, "price": {"$gte": 1400, "$lte": 1500}}
 ```
